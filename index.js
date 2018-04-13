@@ -11,8 +11,6 @@ function logDriversByHometown(drivers, location){
   })
 }
 
-function logDriversByHometown(drivers, location){
-  drivers.filter(driver => driver.hometown === location).forEach(function(element) {
-  console.log(element.name);
-  })
+function driversByRevenue(drivers, revenue){
+  return drivers.sort)
 }
